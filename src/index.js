@@ -6,6 +6,7 @@ import Navigation from "./Navigation";
 import Header from "./Header";
 import About from "./About";
 import Services from "./Services";
+import Contact from "./Contact";
 import * as serviceWorker from "./serviceWorker";
 
 class App extends React.Component {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Header mainTitle="My Stylish portfolio!" button="find out more" />
         <About aboutme="who am i? | what i do?" />
         <Services />
+        <Contact />
       </div>
     );
   }

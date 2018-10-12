@@ -1,0 +1,28 @@
+.contact {
+  background-color: #232529;
+  color: #ddd;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+}
+
+.contact h4 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.contact span {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.contact .row {
+  margin: 2rem 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact .center {
+  display: flex;
+  flex-direction: column;
+}
