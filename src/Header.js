@@ -11,7 +11,7 @@ class Header extends Component {
     };
     return (
       <header style={myStyles}>
-        <div class="content">
+        <div className="content">
           <h1>{this.props.mainTitle}</h1>
           <p>Take a glimpse at my professional work....</p>
           <a href="#findMore" class="btn">

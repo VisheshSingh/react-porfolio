@@ -1,0 +1,49 @@
+.services {
+  margin: 0 auto;
+  text-align: center;
+  background-color: teal;
+  padding: 5rem 0;
+}
+
+.services h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #e1a800;
+  margin: 0;
+}
+
+.services h2 {
+  margin: 0;
+  font-size: 4rem;
+  color: #fff;
+  margin-bottom: 4rem;
+}
+
+.services .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.services .row span {
+  background-color: #fff;
+  width: 8rem;
+  height: 8rem;
+  display: inline-block;
+  border-radius: 50%;
+  color: teal;
+  font-size: 3rem;
+  line-height: 8rem;
+}
+
+.services .row h4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.services .row p {
+  color: #fff;
+}
+
+.services .row p ion-icon {
+  color: #f00;
+}

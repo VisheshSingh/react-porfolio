@@ -1,0 +1,33 @@
+.about {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ddd;
+  padding: 8rem 0;
+  color: #232529;
+}
+
+.about h2 {
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.about .btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #232529;
+  padding: 1rem 2rem;
+  color: #fff;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.about .btn:hover {
+  cursor: pointer;
+  background: #444;
+}
