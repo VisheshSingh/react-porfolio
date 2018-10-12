@@ -1,0 +1,35 @@
+header {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #232529;
+}
+
+.content h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.content p {
+  font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.content .btn {
+  text-transform: capitalize;
+  text-decoration: none;
+  background-color: teal;
+  padding: 1rem 1.5rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 8px o rgb(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-top: 1rem;
+}
